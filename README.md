@@ -68,7 +68,7 @@ Cyclistic-Bike-Share-Analysis/
 Requirements: Python 3.10 or newer, and about 3 GB of free disk space.
 
 ```powershell
-git clone https://github.com/aliakbarse/Cyclistic-Bike-Share-Analysis.git
+git clone https://github.com/aliakbarda/Cyclistic-Bike-Share-Analysis.git
 cd Cyclistic-Bike-Share-Analysis
 python -m venv .venv
 .venv\Scripts\Activate.ps1
