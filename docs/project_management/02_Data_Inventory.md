@@ -2,7 +2,7 @@
 
 ## Source
 
-Cyclistic historical trip data provided for the Google Data Analytics Capstone case study.
+Cyclistic historical trip data (Divvy bike-share trip data for Chicago, published by Lyft Bikes and Scooters, LLC), used for this portfolio project.
 
 ## Files Downloaded
 
