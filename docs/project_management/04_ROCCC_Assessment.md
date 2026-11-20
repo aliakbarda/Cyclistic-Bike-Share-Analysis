@@ -20,7 +20,7 @@ Based on the investigations completed so far, the dataset remains suitable for c
 
 The case-study material states that the Cyclistic datasets are public data made available by Motivate International Inc. under a license. Cyclistic itself is a fictional company created for the case study.
 
-The Google Data Analytics certificate provides the case-study framework, but the dataset should not be described as data created by Google.
+The dataset is published by Lyft Bikes and Scooters, LLC and was not created by this project; it is credited to them.
 
 ## C — Comprehensive
 
