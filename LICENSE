@@ -22,4 +22,4 @@ SOFTWARE.
 
 This license covers the code and documentation in this repository only. The
 Divvy trip data is not included and remains subject to its own data license
-agreement (see 02_Raw_Data/README.md).
+agreement (see data/raw/README.md).

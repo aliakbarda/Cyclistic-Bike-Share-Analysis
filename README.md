@@ -85,8 +85,9 @@ Cyclistic-Bike-Share-Analysis/
 ├── exploration/             One-off checks used to understand the data (scripts 00-15)
 ├── docs/                    findings.md, images/ (Python charts and dashboard screenshots), project_management/ (Ask, Prepare and Process notes)
 ├── powerbi/                 Cyclistic_Dashboard.pbix, PDF export and model notes
-├── 02_Raw_Data/             Download instructions (data not stored here)
-├── 03_Clean_Data/           Output folder for cyclistic_clean.csv (not stored here)
+├── data/
+│   ├── raw/                 Download instructions (data not stored here)
+│   └── clean/               Output folder for cyclistic_clean.csv (not stored here)
 ├── pyproject.toml
 └── LICENSE
 ```
@@ -103,7 +104,7 @@ python -m venv .venv
 python -m pip install -e ".[dev]"
 ```
 
-1. Download the 12 monthly files and extract them as described in [`02_Raw_Data/README.md`](02_Raw_Data/README.md).
+1. Download the 12 monthly files and extract them as described in [`data/raw/README.md`](data/raw/README.md).
 2. Build and check the clean table and draw the charts (a few minutes): `python -m cyclistic.run_pipeline`
 3. Run the tests: `python -m pytest -v`
 4. Optional, load PostgreSQL and run the full-data tests. Create a database called `cyclistic`, set `PGPASSWORD`, then:

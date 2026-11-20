@@ -6,7 +6,7 @@ from pathlib import Path
 # ============================================================
 
 DATA_DIR = Path(
-    r"C:\Users\Ali Akbar\Desktop\Portfolio Projects\01_Cyclistic_Bike_Share\02_Raw_Data\extracted"
+    r"C:\Users\Ali Akbar\Desktop\Portfolio Projects\01_Cyclistic_Bike_Share\data\raw\extracted"
 )
 
 FILES = sorted(DATA_DIR.glob("*.csv"))
