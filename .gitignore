@@ -6,10 +6,10 @@ __pycache__/
 .ipynb_checkpoints/
 
 # Data is not versioned (GitHub rejects files > 100 MB). See README in each data folder.
-02_Raw_Data/*
-!02_Raw_Data/README.md
-03_Clean_Data/*
-!03_Clean_Data/README.md
+data/raw/*
+!data/raw/README.md
+data/clean/*
+!data/clean/README.md
 
 # Local analysis databases
 *.duckdb

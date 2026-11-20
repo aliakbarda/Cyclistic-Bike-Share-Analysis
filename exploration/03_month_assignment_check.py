@@ -3,7 +3,7 @@ import pandas as pd
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-DATA_FOLDER = PROJECT_ROOT / "02_Raw_Data" / "extracted"
+DATA_FOLDER = PROJECT_ROOT / "data" / "raw" / "extracted"
 
 csv_files = sorted(DATA_FOLDER.glob("*.csv"))
 

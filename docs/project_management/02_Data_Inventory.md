@@ -23,7 +23,7 @@ Cyclistic historical trip data (Divvy bike-share trip data for Chicago, publishe
 
 ## Initial Observation
 
-12 monthly files were downloaded, covering September 2025 through August 2026. Each ZIP was extracted to `02_Raw_Data/extracted/` as one CSV per month (13 columns, 6,115,982 records in total).
+12 monthly files were downloaded, covering September 2025 through August 2026. Each ZIP was extracted to `data/raw/extracted/` as one CSV per month (13 columns, 6,115,982 records in total).
 
 ## Data Handling Principle
 

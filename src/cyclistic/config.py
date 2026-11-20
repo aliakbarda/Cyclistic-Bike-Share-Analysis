@@ -12,8 +12,8 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
-RAW_DIR = PROJECT_ROOT / "02_Raw_Data" / "extracted"
-CLEAN_DIR = PROJECT_ROOT / "03_Clean_Data"
+RAW_DIR = PROJECT_ROOT / "data" / "raw" / "extracted"
+CLEAN_DIR = PROJECT_ROOT / "data" / "clean"
 CLEAN_FILE = CLEAN_DIR / "cyclistic_clean.csv"
 IMAGES_DIR = PROJECT_ROOT / "docs" / "images"
 
