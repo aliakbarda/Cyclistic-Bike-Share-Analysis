@@ -9,6 +9,7 @@ The dashboard is finished: four pages, exported to `Cyclistic_Dashboard.pdf`, sc
 | `powerbi/Cyclistic_Dashboard.pbix` | The report (open with Power BI Desktop) |
 | `powerbi/Cyclistic_Dashboard.pdf` | PDF export of all four pages |
 | `docs/images/dashboard_page1.png` to `dashboard_page4.png` | One screenshot per page |
+| `sql/05_powerbi_views.sql` | The ride-level view (`vw_fact_rides`) and the month view (`vw_dim_month`) |
 | `sql/06_powerbi_median_views.sql` | The two median views (`vw_median_overall`, `vw_median_by_month`) |
 
 ## Pages
