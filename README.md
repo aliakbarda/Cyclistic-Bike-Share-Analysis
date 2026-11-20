@@ -57,7 +57,7 @@ Design choices worth knowing:
 - **Stations are not in the dashboard.** Station findings are in [`docs/findings.md`](docs/findings.md) and in the Python chart `docs/images/05_top_casual_stations.png`, because 21% of rides have no start station.
 - **Page 4 text and cards are typed from the SQL results**, not calculated live. Each number is traced in [`docs/findings.md`](docs/findings.md).
 
-Charts made with Python are in [`docs/images/`](docs/images/) (files `01` to `05`).
+Charts made with Python are in [`docs/images/`](docs/images/) (files `01` to `06`).
 
 ## Limitations
 

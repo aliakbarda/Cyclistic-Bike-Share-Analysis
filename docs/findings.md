@@ -142,7 +142,7 @@ The four-page Power BI dashboard is in `powerbi/` (`.pbix` and PDF; screenshots 
 | Analysis definitions and charts | `src/cyclistic/analysis.py`, `src/cyclistic/plot_charts.py` |
 | SQL | `sql/` (analysis scripts 01-04 and the Power BI views) |
 | Summary tables | `excel/summary_tables.xlsx` |
-| Python charts | `docs/images/01_*.png` to `05_*.png` |
+| Python charts | `docs/images/01_*.png` to `06_*.png` |
 | Power BI dashboard | `powerbi/Cyclistic_Dashboard.pbix`, `powerbi/Cyclistic_Dashboard.pdf` |
 | Dashboard screenshots | `docs/images/dashboard_page1.png` to `dashboard_page4.png` |
 | Dashboard model notes | `powerbi/README_PowerBI_handoff.md` |
