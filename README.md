@@ -116,7 +116,7 @@ Some scripts in `exploration/` still contain absolute Windows paths; change them
 
 The scripts in `sql/` are written for PostgreSQL. `01_data_validation.sql` and `02_exploration.sql` check the data, `03_analysis.sql` holds the deeper analysis and `04_final_queries.sql` holds the queries behind the findings (KPIs, weekday-by-hour heatmap, seasons, commute-like rides, round trips and station rankings). `00_schema.sql` creates the table (with `ride_id` as the primary key and `CHECK` rules for the categories and durations), and `python -m cyclistic.load_to_postgres` fills it with `COPY` and checks the row count. A test compares the headline numbers from PostgreSQL with the pandas results.
 
-The Power BI report reads four PostgreSQL views: `vw_fact_rides` (one row per ride), `vw_dim_month`, `vw_median_overall` and `vw_median_by_month`. The two median views are in `06_powerbi_median_views.sql`.
+The Power BI report reads four PostgreSQL views: `vw_fact_rides` (one row per ride) and `vw_dim_month` in `05_powerbi_views.sql`, and `vw_median_overall` and `vw_median_by_month` in `06_powerbi_median_views.sql`.
 
 ## Next steps
 
