@@ -1,6 +1,6 @@
 # Cyclistic Bike-Share Analysis
 
-How do annual members and casual riders use Cyclistic bikes differently, and where could Cyclistic win more members? This project analyses 6.1 million Divvy bike-share rides (September 2025 - August 2026) with Python (pandas), SQL (PostgreSQL), Excel and Power BI. It is the capstone of the Google Data Analytics Certificate.
+How do annual members and casual riders use Cyclistic bikes differently, and where could Cyclistic win more members? This project analyses 6.1 million Divvy bike-share rides (September 2025 - August 2026) with Python (pandas), SQL (PostgreSQL), Excel and Power BI.
 
 **Dashboard:** four-page Power BI report, see [`powerbi/Cyclistic_Dashboard.pdf`](powerbi/Cyclistic_Dashboard.pdf) or the [screenshots below](#power-bi-dashboard).
 
@@ -126,7 +126,7 @@ The Power BI report reads four PostgreSQL views: `vw_fact_rides` (one row per ri
 
 ## Data licence and credit
 
-The trip data is published by Lyft Bikes and Scooters, LLC for the Divvy bike-share system in Chicago, and is used here for the Google Data Analytics capstone case study. It is subject to the Divvy data licence agreement; read it before reusing the data (see https://divvybikes.com/system-data). The raw and clean data files are not stored in this repository, and the MIT licence below does not cover them.
+The trip data is published by Lyft Bikes and Scooters, LLC for the Divvy bike-share system in Chicago, and is used here for a portfolio analysis project. It is subject to the Divvy data licence agreement; read it before reusing the data (see https://divvybikes.com/system-data). The raw and clean data files are not stored in this repository, and the MIT licence below does not cover them.
 
 ## Code licence
 
